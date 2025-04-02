@@ -1,10 +1,11 @@
 {
     "packageRules": [
         {
+            "prHourlyLimit": 100,
             "matchRepositories": ["Qwix/minimal-reproduction-template"],
             "matchFileNames": ["Dockerfile"],
-            "versioning": "regex:^(?<major>\\d+)\\.(?<minor>\\d+)$",
-            "prHourlyLimit": 100
+            "versioning": "regex:^(?<major>\\d+)\\.(?<minor>\\d+)$",,
+            "matchCurrentVersion": "/^{{major}}\\..+/"
         }
     ]
 }
