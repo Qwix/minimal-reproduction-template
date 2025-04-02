@@ -1,1 +1,9 @@
-{}
+{
+    "repositories": ["Qwix/minimal-reproduction-template"],
+    "packageRules": [
+        {
+            "matchFileNames": ["Dockerfile"],
+            "versioning": "regex:^(?<major>\\d+)\\.(?<minor>\\d+)$"
+        }
+    ]
+}
