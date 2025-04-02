@@ -3,7 +3,8 @@
         {
             "matchRepositories": ["Qwix/minimal-reproduction-template"],
             "matchFileNames": ["Dockerfile"],
-            "versioning": "regex:^(?<major>\\d+)\\.(?<minor>\\d+)$"
+            "versioning": "regex:^(?<major>\\d+)\\.(?<minor>\\d+)$",
+            "prHourlyLimit": 100
         }
     ]
 }
